@@ -1,0 +1,241 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/structure/closet/emcloset/anchored,
+/obj/item/clothing/mask/breath,
+/obj/item/clothing/mask/breath,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/feeder_shuttle)
+"g" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate{
+	name = "shuttle navigation computer";
+	desc = "Used to designate a precise transit location for the shuttle.";
+	dir = 4;
+	shuttleId = "feeder_ship";
+	shuttlePortId = "feeder_custom";
+	jump_to_ports = list("whiteship_home" = 1, "feeder_home" = 1)
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/feeder_shuttle)
+"j" = (
+/turf/closed/wall/r_wall/syndicate,
+/area/shuttle/feeder_shuttle)
+"k" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/feeder_shuttle)
+"l" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/feeder_shuttle)
+"o" = (
+/obj/machinery/computer{
+	dir = 4;
+	name = "Shuttle computer"
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/feeder_shuttle)
+"p" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/machinery/door/window/survival_pod,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/feeder_shuttle)
+"r" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/structure/medkit_cabinet{
+	pixel_x = 24
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/feeder_shuttle)
+"y" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/obj/machinery/door/window/survival_pod{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/feeder_shuttle)
+"z" = (
+/obj/structure/shuttle/engine/propulsion/left{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/shuttle/feeder_shuttle)
+"C" = (
+/obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/feeder_shuttle)
+"D" = (
+/obj/structure/shuttle/engine/heater{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod,
+/turf/open/floor/plating,
+/area/shuttle/feeder_shuttle)
+"F" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#c1caff"
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/feeder_shuttle)
+"G" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/feeder_shuttle)
+"I" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/shuttle/feeder_shuttle)
+"J" = (
+/obj/machinery/door/airlock/hatch{
+	name = "airlock";
+	req_access_txt = "150"
+	},
+/obj/structure/fans/tiny,
+/obj/docking_port/mobile{
+	dir = 8;
+	shuttle_id = "feeder_ship";
+	port_direction = 4;
+	shuttle_areas = /area/shuttle/feeder_shuttle;
+	dwidth = 3;
+	height = 7;
+	width = 7
+	},
+/turf/open/floor/plating,
+/area/shuttle/feeder_shuttle)
+"M" = (
+/obj/machinery/porta_turret/fattening,
+/turf/closed/wall/r_wall/syndicate,
+/area/shuttle/feeder_shuttle)
+"P" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/feeder_shuttle)
+"Q" = (
+/turf/template_noop,
+/area/template_noop)
+"S" = (
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/machinery/suit_storage_unit/syndicatemod,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/feeder_shuttle)
+"X" = (
+/obj/machinery/computer/shuttle/syndicate{
+	name = "shuttle terminal";
+	dir = 4;
+	shuttleId = "feeder_ship";
+	possible_destinations = "feeder_home;whiteship_home;feeder_custom"
+	},
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/feeder_shuttle)
+"Y" = (
+/obj/effect/spawner/structure/window/plastitanium,
+/obj/structure/grille,
+/turf/open/floor/plating,
+/area/shuttle/feeder_shuttle)
+"Z" = (
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/feeder_shuttle)
+
+(1,1,1) = {"
+Q
+M
+Y
+Y
+Y
+M
+Q
+"}
+(2,1,1) = {"
+Q
+Y
+o
+X
+g
+Y
+Q
+"}
+(3,1,1) = {"
+Q
+j
+G
+P
+C
+j
+Q
+"}
+(4,1,1) = {"
+j
+I
+a
+l
+S
+I
+j
+"}
+(5,1,1) = {"
+j
+p
+l
+l
+l
+y
+j
+"}
+(6,1,1) = {"
+j
+D
+F
+Z
+r
+k
+j
+"}
+(7,1,1) = {"
+Q
+z
+I
+J
+I
+z
+Q
+"}

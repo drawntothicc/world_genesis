@@ -1,0 +1,178 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/indestructible/sandstone,
+/area/lavaland/surface/outdoors)
+"c" = (
+/turf/open/water,
+/area/lavaland/surface/outdoors)
+"k" = (
+/obj/structure/bed/double,
+/turf/open/floor/plating/beach/sand,
+/area/lavaland/surface/outdoors)
+"o" = (
+/obj/structure/bed/double,
+/obj/item/reagent_containers/rag/towel,
+/turf/open/floor/plating/beach/sand,
+/area/lavaland/surface/outdoors)
+"u" = (
+/obj/structure/fans/tiny/invisible,
+/turf/open/floor/plating/beach/sand,
+/area/lavaland/surface/outdoors)
+"I" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"L" = (
+/obj/structure/fluff/beach_umbrella,
+/turf/open/floor/plating/beach/sand,
+/area/lavaland/surface/outdoors)
+"U" = (
+/turf/open/floor/plating/beach/sand,
+/area/lavaland/surface/outdoors)
+"Z" = (
+/obj/item/flashlight/lantern,
+/turf/open/floor/plating/beach/sand,
+/area/lavaland/surface/outdoors)
+
+(1,1,1) = {"
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+"}
+(2,1,1) = {"
+I
+I
+I
+a
+a
+a
+a
+a
+I
+I
+I
+"}
+(3,1,1) = {"
+I
+I
+a
+c
+c
+c
+c
+c
+a
+I
+I
+"}
+(4,1,1) = {"
+I
+a
+c
+c
+c
+c
+c
+c
+c
+a
+I
+"}
+(5,1,1) = {"
+I
+a
+c
+c
+c
+c
+c
+c
+c
+a
+I
+"}
+(6,1,1) = {"
+I
+a
+Z
+c
+c
+c
+c
+c
+Z
+a
+I
+"}
+(7,1,1) = {"
+I
+u
+U
+k
+o
+U
+k
+o
+U
+u
+I
+"}
+(8,1,1) = {"
+I
+a
+U
+L
+U
+U
+U
+L
+U
+a
+I
+"}
+(9,1,1) = {"
+I
+I
+a
+U
+U
+U
+U
+U
+a
+I
+I
+"}
+(10,1,1) = {"
+I
+I
+I
+a
+a
+u
+a
+a
+I
+I
+I
+"}
+(11,1,1) = {"
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+I
+"}

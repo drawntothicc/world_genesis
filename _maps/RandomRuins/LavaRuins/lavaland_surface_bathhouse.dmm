@@ -1,0 +1,309 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/turf/closed/wall/mineral/silver,
+/area/ruin/lavaland/powered/bathhouse)
+"c" = (
+/obj/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/curtain,
+/obj/effect/turf_decal/loading_area{
+	dir = 10;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"e" = (
+/obj/structure/mirror{
+	pixel_y = 28
+	},
+/obj/structure/sink{
+	pixel_y = 20
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 5;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"f" = (
+/obj/structure/table/greyscale,
+/obj/item/bikehorn/rubberducky,
+/obj/effect/turf_decal/loading_area{
+	dir = 5;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"g" = (
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"h" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6;
+	icon_state = "steel_decals6"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5;
+	icon_state = "steel_decals6"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"i" = (
+/obj/machinery/door/airlock/freezer{
+	name = "bath house airlock"
+	},
+/turf/open/floor/wood,
+/area/ruin/lavaland/powered/bathhouse)
+"j" = (
+/turf/closed/wall/mineral/wood,
+/area/ruin/lavaland/powered/bathhouse)
+"k" = (
+/turf/open/floor/wood,
+/area/ruin/lavaland/powered/bathhouse)
+"l" = (
+/obj/structure/table/wood/fancy,
+/obj/item/reagent_containers/food/drinks/bottle/lizardwine{
+	pixel_x = -5
+	},
+/obj/item/reagent_containers/food/drinks/drinkingglass{
+	pixel_y = 5;
+	pixel_x = 8
+	},
+/turf/open/floor/wood,
+/area/ruin/lavaland/powered/bathhouse)
+"m" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/ruin/lavaland/powered/bathhouse)
+"n" = (
+/turf/open/floor/plating/asteroid/basalt/lava_land_surface,
+/area/lavaland/surface/outdoors)
+"o" = (
+/obj/structure/chair/sofachair{
+	dir = 8
+	},
+/obj/item/clothing/mask/cigarette/cigar,
+/turf/open/floor/wood,
+/area/ruin/lavaland/powered/bathhouse)
+"u" = (
+/obj/machinery/shower{
+	pixel_y = 16
+	},
+/obj/structure/curtain,
+/obj/effect/turf_decal/loading_area{
+	dir = 10;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/obj/item/soap,
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"A" = (
+/obj/structure/mirror{
+	pixel_y = 28
+	},
+/obj/structure/sink{
+	pixel_y = 20
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 9;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 4;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"B" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 1;
+	icon_state = "drain";
+	name = "drain"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"C" = (
+/obj/structure/fireplace{
+	dir = 4
+	},
+/turf/open/floor/wood,
+/area/ruin/lavaland/powered/bathhouse)
+"D" = (
+/obj/structure/rack/shelf,
+/obj/item/reagent_containers/rag/towel/random,
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"K" = (
+/obj/effect/turf_decal/loading_area{
+	dir = 5;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/obj/effect/turf_decal/loading_area{
+	dir = 10;
+	icon_state = "steel_panel";
+	name = "steel pannel"
+	},
+/obj/machinery/door/airlock/freezer{
+	name = "bath house airlock"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"L" = (
+/obj/structure/rack/shelf,
+/obj/item/reagent_containers/rag/towel/random,
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6;
+	icon_state = "steel_decals6"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5;
+	icon_state = "steel_decals6"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"N" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6;
+	icon_state = "steel_decals6"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 5;
+	icon_state = "steel_decals6"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+"V" = (
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 1;
+	icon_state = "steel_decals4"
+	},
+/turf/open/floor/plasteel/white,
+/area/ruin/lavaland/powered/bathhouse)
+
+(1,1,1) = {"
+b
+b
+b
+b
+b
+n
+a
+a
+"}
+(2,1,1) = {"
+b
+c
+B
+N
+b
+j
+j
+j
+"}
+(3,1,1) = {"
+b
+b
+B
+h
+i
+k
+C
+j
+"}
+(4,1,1) = {"
+b
+c
+B
+h
+b
+l
+k
+j
+"}
+(5,1,1) = {"
+b
+b
+B
+h
+b
+m
+o
+j
+"}
+(6,1,1) = {"
+b
+u
+B
+h
+b
+j
+j
+j
+"}
+(7,1,1) = {"
+b
+b
+B
+h
+b
+n
+n
+n
+"}
+(8,1,1) = {"
+b
+A
+V
+h
+b
+n
+n
+n
+"}
+(9,1,1) = {"
+b
+e
+g
+h
+K
+n
+n
+n
+"}
+(10,1,1) = {"
+b
+f
+D
+L
+b
+n
+n
+a
+"}
+(11,1,1) = {"
+b
+b
+b
+b
+b
+n
+a
+a
+"}

@@ -1,0 +1,720 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/template_noop,
+/area/template_noop)
+"b" = (
+/obj/structure/shuttle/engine/propulsion{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"c" = (
+/turf/closed/wall/mineral/titanium,
+/area/shuttle/escape)
+"d" = (
+/obj/structure/window/reinforced,
+/obj/structure/shuttle/engine/heater{
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/escape)
+"e" = (
+/obj/effect/spawner/structure/window/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"f" = (
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"g" = (
+/obj/docking_port/mobile/emergency/shuttle_build{
+	dwidth = 11;
+	height = 18;
+	name = "Shuttle Under Construction";
+	port_direction = 4;
+	preferred_direction = 2;
+	width = 30
+	},
+/obj/machinery/door/airlock,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"h" = (
+/obj/machinery/computer/emergency_shuttle{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"m" = (
+/obj/structure/table,
+/obj/item/construction/rcd,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"n" = (
+/obj/structure/table,
+/obj/item/rcl/pre_loaded,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"p" = (
+/obj/structure/table,
+/obj/item/stack/sheet/mineral/titanium/fifty,
+/obj/item/stack/sheet/mineral/plastitanium/fifty{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"w" = (
+/obj/item/clothing/head/welding{
+	pixel_x = -12
+	},
+/obj/structure/table,
+/obj/item/storage/box/lights/mixed{
+	pixel_x = 4
+	},
+/obj/item/clothing/glasses/meson{
+	pixel_x = -10;
+	pixel_y = -2
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"x" = (
+/obj/structure/chair/comfy/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"B" = (
+/obj/structure/table,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/metal/fifty,
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/stack/sheet/glass/fifty{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/item/stack/sheet/metal/fifty,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"C" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"J" = (
+/obj/structure/table,
+/obj/item/flashlight/lamp,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"K" = (
+/obj/machinery/door/airlock,
+/obj/structure/fans/tiny,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"O" = (
+/obj/structure/table,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"Q" = (
+/obj/machinery/portable_atmospherics/canister/air,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"U" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = -8
+	},
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/emergency{
+	pixel_y = 8
+	},
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/obj/item/stack/cable_coil/red,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"W" = (
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/escape)
+"X" = (
+/obj/structure/table,
+/obj/item/airlock_painter,
+/obj/item/airlock_painter/decal/tile{
+	pixel_y = 8
+	},
+/obj/item/toner/extreme,
+/obj/item/toner/extreme,
+/turf/open/floor/plating,
+/area/shuttle/escape)
+
+(1,1,1) = {"
+a
+c
+c
+c
+c
+c
+c
+c
+c
+K
+e
+g
+c
+e
+e
+e
+c
+K
+e
+K
+c
+c
+c
+c
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+a
+a
+a
+a
+a
+"}
+(3,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+a
+a
+a
+a
+a
+"}
+(4,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+a
+a
+a
+a
+a
+"}
+(5,1,1) = {"
+c
+c
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+c
+e
+e
+c
+c
+"}
+(6,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+"}
+(7,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+e
+"}
+(8,1,1) = {"
+c
+c
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+p
+f
+Q
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+O
+e
+"}
+(9,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+B
+f
+J
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+x
+h
+e
+"}
+(10,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+n
+f
+w
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+x
+W
+e
+"}
+(11,1,1) = {"
+c
+c
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+X
+f
+m
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+O
+e
+"}
+(12,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+U
+f
+C
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+e
+"}
+(13,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+"}
+(14,1,1) = {"
+c
+c
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+c
+e
+e
+c
+c
+"}
+(15,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+a
+a
+a
+a
+a
+"}
+(16,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+a
+a
+a
+a
+a
+"}
+(17,1,1) = {"
+b
+d
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+f
+c
+a
+a
+a
+a
+a
+"}
+(18,1,1) = {"
+a
+c
+c
+c
+c
+c
+c
+c
+c
+e
+e
+e
+c
+e
+e
+e
+c
+e
+e
+e
+c
+c
+c
+c
+a
+a
+a
+a
+a
+"}

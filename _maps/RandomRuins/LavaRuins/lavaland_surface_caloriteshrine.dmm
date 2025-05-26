@@ -1,0 +1,128 @@
+"aF" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"aG" = (/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 8},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"bt" = (/turf/open/floor/mineral/gainium,/area/ruin/unpowered/gainiumshrine)
+"ch" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/item/chair/wood,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"cs" = (/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"da" = (/obj/structure/table/wood/fancy,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/item/gavelhammer/fattening,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"de" = (/turf/open/indestructible/cobble/side,/area/lavaland/surface/outdoors)
+"eF" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 2},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"gs" = (/obj/structure/statue/fatso{pixel_y = 11},/turf/open/floor/mineral/gainium,/area/ruin/unpowered/gainiumshrine)
+"gI" = (/obj/structure/chair/sofa/right/old,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"hd" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"ho" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"iJ" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/mob/living/simple_animal/hostile/fatten/magehand,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"jP" = (/mob/living/simple_animal/hostile/fatten/magehand,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"kf" = (/obj/structure/bonfire,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"kz" = (/obj/structure/table/bronze,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"kB" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 2},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"kF" = (/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"kG" = (/obj/structure/chair/sofa/left/old{dir = 8},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"ly" = (/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"mR" = (/turf/template_noop,/area/template_noop)
+"mS" = (/obj/item/trash/waffles,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"nW" = (/obj/structure/chair/wood,/obj/item/clothing/mask/gas/fattening,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"ok" = (/obj/item/trash/cheesie,/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"oH" = (/obj/structure/table/bronze,/obj/item/trash/plate{pixel_y = 2},/obj/item/trash/plate{pixel_y = 5},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"pw" = (/obj/structure/mineral_door/gainium,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"pF" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/obj/item/reagent_containers/food/drinks/bigbottle/fizz{pixel_x = -16; pixel_y = 8},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"pI" = (/obj/effect/decal/cleanable/ash/large,/turf/open/floor/plating/asteroid/basalt,/area/template_noop)
+"pV" = (/turf/open/floor/plating/asteroid/basalt,/area/template_noop)
+"qX" = (/obj/item/borg/upgrade/fatoray,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"rh" = (/obj/structure/table/bronze,/obj/item/trash/plate{pixel_y = 8},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"sa" = (/obj/structure/chair/sofa/old{dir = 8},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"sf" = (/obj/structure/trap/fattening,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"sq" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 2},/obj/item/trash/fatoray_scrap1,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"su" = (/obj/structure/chair/wood{dir = 4},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"sA" = (/obj/structure/chair/wood{dir = 8},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"sI" = (/obj/structure/table/bronze,/obj/item/candle/infinite,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"sY" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 4},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"tV" = (/obj/structure/chair/wood{dir = 1},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"us" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"uD" = (/obj/item/trash/cheesie,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"uL" = (/obj/structure/chair/sofa/corner/old,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"vN" = (/obj/structure/table/wood/fancy/orange,/obj/item/reagent_containers/food/snacks/burger/rib,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"wt" = (/obj/item/trash/blueberry_gum,/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"xB" = (/obj/structure/table/wood/fancy/orange,/obj/item/reagent_containers/food/drinks/bigbottle/spaceup{pixel_y = 20},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"xI" = (/turf/open/indestructible/cobble/side{dir = 8},/area/lavaland/surface/outdoors)
+"xY" = (/turf/open/indestructible/cobble,/area/lavaland/surface/outdoors)
+"yr" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"yG" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/obj/structure/trap/fattening,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"yR" = (/obj/structure/chair/wood,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"Ad" = (/obj/structure/table/bronze,/obj/item/lighter/gold,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"Aq" = (/turf/closed/wall/mineral/gainium,/area/ruin/unpowered/gainiumshrine)
+"AQ" = (/obj/structure/chair/bronze,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"Bz" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/structure/trap/fattening,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"CT" = (/obj/machinery/grill,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"DJ" = (/obj/structure/table/bronze,/obj/item/reagent_containers/food/drinks/bigbottle/cola{pixel_y = 6; pixel_x = 8},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"FP" = (/obj/item/trash/blueberry_gum,/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"FU" = (/turf/open/floor/plating/asteroid/basalt,/area/lavaland/surface/outdoors)
+"Go" = (/turf/open/indestructible/cobble/corner{dir = 4},/area/lavaland/surface/outdoors)
+"Gv" = (/mob/living/simple_animal/hostile/fatten/magehand,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"IX" = (/obj/item/flashlight/lantern{anchored = 1; icon_state = null; icon = null},/turf/open/floor/plating/asteroid/basalt,/area/lavaland/surface/outdoors)
+"Jx" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/item/reagent_containers/food/drinks/soda_cans/fizzwiz,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"JC" = (/obj/item/trash/blueberry_gum,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"LF" = (/turf/open/indestructible/cobble/corner{dir = 8},/area/lavaland/surface/outdoors)
+"MO" = (/turf/open/indestructible/cobble/side{dir = 4},/area/lavaland/surface/outdoors)
+"Nr" = (/obj/item/trash/pistachios,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 8},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"NI" = (/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 4},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"Oc" = (/obj/item/trash/boritos,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"Pa" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"PY" = (/obj/structure/table/bronze,/obj/item/trash/plate,/obj/item/trash/can,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"QK" = (/obj/structure/table/bronze,/obj/item/trash/plate,/obj/item/trash/plate{pixel_y = 2},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"QM" = (/obj/effect/turf_decal/tile/yellow,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"QT" = (/obj/structure/table/bronze,/obj/item/reagent_containers/food/drinks/soda_cans/fizzwiz{pixel_y = 7; pixel_x = 8},/obj/item/reagent_containers/food/drinks/soda_cans/fizzwiz,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"RG" = (/obj/item/trash/energybar,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"RV" = (/obj/structure/chair/sofa/corner/old,/obj/item/reagent_containers/food/drinks/soda_cans/fizzwiz,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"Sw" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"SU" = (/obj/item/trash/cheesie,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"Tn" = (/obj/effect/decal/cleanable/ash,/turf/open/floor/plating/asteroid/basalt,/area/template_noop)
+"Ts" = (/turf/closed/wall/mineral/gainium,/area/lavaland/surface/outdoors)
+"TL" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 2},/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"TW" = (/obj/structure/statue/gainium/fatty{anchored = 1},/obj/item/flashlight/lantern{anchored = 1; icon_state = null; icon = null},/turf/open/floor/mineral/gainium/strong,/area/ruin/unpowered/gainiumshrine)
+"Ul" = (/obj/item/trash/waffles,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"Vx" = (/obj/structure/table/bronze,/obj/item/reagent_containers/food/drinks/bigbottle/cola{pixel_y = 8; pixel_x = -4},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"VI" = (/obj/item/reagent_containers/food/drinks/bigbottle/starkist{pixel_x = -10; pixel_y = -8},/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"VL" = (/obj/effect/turf_decal/tile/yellow,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"Wa" = (/obj/item/candle/infinite,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"Wt" = (/obj/effect/decal/cleanable/ash/large,/turf/open/floor/plating/asteroid/basalt,/area/lavaland/surface/outdoors)
+"Wz" = (/obj/structure/table/bronze,/obj/item/trash/plate,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"WN" = (/obj/structure/table/bronze,/obj/item/reagent_containers/food/drinks/soda_cans/fizzwiz,/turf/open/floor/carpet/red,/area/ruin/unpowered/gainiumshrine)
+"XU" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/structure/trap/fattening,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"XX" = (/obj/structure/table/wood/fancy/orange,/obj/item/trash/candy,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"Ye" = (/obj/effect/turf_decal/tile/yellow{dir = 8},/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"Yz" = (/obj/structure/chair/sofa/old,/obj/item/trash/popcorn,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"YM" = (/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/structure/trap/fattening,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"ZL" = (/obj/structure/table/wood/fancy,/obj/effect/turf_decal/tile/yellow{dir = 4},/obj/effect/turf_decal/tile/yellow{dir = 1},/obj/structure/fat_mirror,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+"ZU" = (/obj/structure/table/wood/fancy/orange,/turf/open/floor/mineral/crimsonstone_floor,/area/ruin/unpowered/gainiumshrine)
+
+(1,1,1) = {"
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRpVTnmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVmRmRmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVpVmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRpVpVpVpVpVpVAqAqAqAqAqAqAqAqAqAqAqpVpVpVpVpVpVmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRpVpVpVpVpVAqAqAqAqbtbtbtbtgsbtbtbtbtAqAqAqAqpVpVpVmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRpVpVpVpVAqAqbtbtbtJxSwBzZLdaZLBzSwkBbtbtbtAqAqpVpVpVmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRpVpVpVpVAqbtYeSwSwkFTWcssfsfsfjPTWaFSwSwkBbtAqTnpVpVmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRpVpVpVAqAqbthdcscsQMiJPaPaPaPaPaPahocscseFbtAqAqpVpVpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRpVpVAqAqbtYecscsAqyrlynWlyAQGvyRlyhdAqcsYMsqbtAqAqpVTnmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRpVTnAqbtwtcsgIYzuLyrsuWNrhkzAdkzsAhdSUcscsYMTLbtAqpVpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVAqAqbthdTWZUvNkGpFlykzWaCTWaPYVIhdcsOcjPTWeFbtAqAqpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVAqbtYekFcsjPSUUlyrsuQKlykflyoHlyhdcsgIRVcsaFVLbtAqpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVAqbthdcsAqcscscsyrlyWzlykfmSQTlychcsXXsaAqcsNIbtAqpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVAqbthdqXAqcscscsJCsuDJuDlyWakzlyokcsZUsaAqcsNIbtAqpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVAqbtushocscscscsyrlysIkzlyWzVxsAhdcsxBkGcsQMaGbtAqpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVAqAqbthdTWcscsAqyrlytVtVlytVtVlyhdAqcscsTWyrbtAqAqpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVpVAqbtushocscscsaFSwSwSwSwSwSwSwkFRGcscsQMNrbtAqpVpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVTnAqAqbtFPPaPaPahoTWcscscscscsTWQMPaPaPasYbtAqAqpVpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRpVpVpVpVAqAqbtbtbtbtusPaPahocsQMPaPasYbtbtbtbtAqAqpIpVpVmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRpVpVpVAqAqAqAqAqbtbtbtXUsfyGbtbtbtAqAqAqAqAqpVpVTnmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRpVpVpVpVpVFUAqAqAqAqpwAqpwAqAqAqAqFUpVpVpVpVpVmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRpVpVpVpVFUFUFUFUTsxIxYMOTsFUFUFUWtpVpVpVpVpVmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRmRpVFUFUFUFUIXxIxYMOIXFUFUFUFUpVpVpVmRmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRFUFUFUTsLFdeGoTsFUFUFUFUpVpVmRmRmRmRmRmRmRmRmRmRmRmRmRmR
+mRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRFUFUFUFUFUFUFUFUmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmRmR
+"}
