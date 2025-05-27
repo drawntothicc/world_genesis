@@ -32,7 +32,6 @@
 		else
 			M.visible_message("<span class='danger'>[user] attempts to feed some of [src] to [M].</span>", "<span class='userdanger'>[user] attempts to feed some of [src] to [M].</span>")
 	. = ..()
-	return
 
 /obj/item/metal_food/Initialize(mapload)
 	. = ..()
