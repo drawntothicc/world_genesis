@@ -2954,6 +2954,7 @@
 "gB" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /turf/open/floor/carpet/gato,
+/turf/open/floor/carpet/red,
 /area/xenoarch/gen)
 "gC" = (
 /obj/machinery/light/small{
@@ -2963,6 +2964,7 @@
 	dir = 4
 	},
 /turf/open/floor/carpet/gato,
+/turf/open/floor/carpet/red,
 /area/xenoarch/gen)
 "gD" = (
 /obj/effect/turf_decal/loading_area{
@@ -3250,6 +3252,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/gato,
+/turf/open/floor/carpet/red,
 /area/xenoarch/gen)
 "hm" = (
 /obj/effect/turf_decal/tile/purple{
@@ -3306,6 +3309,7 @@
 /area/xenoarch/gen)
 "hs" = (
 /turf/open/floor/carpet/gato,
+/turf/open/floor/carpet/red,
 /area/xenoarch/gen)
 "ht" = (
 /obj/structure/closet/wardrobe/xenoarch,
@@ -3367,6 +3371,7 @@
 /obj/structure/bed/double,
 /obj/item/bedsheet/double_gato,
 /turf/open/floor/carpet/gato,
+/turf/open/floor/carpet/red,
 /area/xenoarch/gen)
 "hz" = (
 /obj/structure/disposalpipe/segment{
@@ -5671,6 +5676,7 @@
 /obj/structure/table/wood,
 /obj/item/flashlight/lamp/green,
 /turf/open/floor/carpet/gato,
+/turf/open/floor/carpet/red,
 /area/xenoarch/gen)
 "mz" = (
 /turf/open/indestructible/necropolis,
@@ -6335,7 +6341,7 @@
 	dir = 9
 	},
 /obj/item/kirbyplants/random,
-/turf/open/floor/plasteel/dark/corner,
+/turf/open/floor/plasteel,
 /area/xenoarch/gen)
 "oj" = (
 /obj/structure/flora/ausbushes/sparsegrass,
@@ -7323,9 +7329,6 @@
 "rb" = (
 /turf/open/floor/wood,
 /area/xenoarch/gainiumresearch_powered)
-"rc" = (
-/turf/open/floor/plasteel/dark/side,
-/area/xenoarch/gen)
 "rd" = (
 /obj/machinery/door/airlock/public{
 	dir = 4
@@ -7441,7 +7444,7 @@
 /area/xenoarch/gainiumresearch_powered)
 "rx" = (
 /obj/item/beacon,
-/turf/open/floor/plasteel/dark,
+/turf/open/floor/plasteel,
 /area/xenoarch/gen)
 "ry" = (
 /obj/item/bodypart/l_leg{
@@ -7621,12 +7624,6 @@
 	icon_state = "steel_decals6"
 	},
 /turf/open/floor/plasteel,
-/area/xenoarch/gen)
-"sf" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/turf/open/floor/plasteel/dark,
 /area/xenoarch/gen)
 "sh" = (
 /obj/structure/chair/stool,
@@ -7841,10 +7838,6 @@
 	},
 /turf/open/floor/plating,
 /area/xenoarch/gainiumresearch_unpowered)
-"sU" = (
-/obj/effect/turf_decal/tile/purple,
-/turf/open/floor/plasteel/dark,
-/area/xenoarch/gen)
 "sV" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 8
@@ -9007,11 +9000,6 @@
 "xm" = (
 /turf/open/chocolateriver,
 /area/ruin/powered/candyland)
-"xn" = (
-/turf/open/floor/plasteel/dark/side{
-	dir = 1
-	},
-/area/xenoarch/gen)
 "xo" = (
 /obj/effect/decal/cleanable/dirt,
 /mob/living/simple_animal/hostile/fatten/magehand,
@@ -10315,9 +10303,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 28
 	},
-/turf/open/floor/plasteel/dark/corner{
-	dir = 8
-	},
+/turf/open/floor/plasteel,
 /area/xenoarch/gen)
 "BB" = (
 /obj/effect/turf_decal/stripes/white/line{
@@ -11200,13 +11186,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel,
 /area/xenoarch/gainiumresearch_powered)
-"EY" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 8
-	},
-/obj/effect/turf_decal/tile/purple,
-/turf/open/floor/plasteel/dark,
-/area/xenoarch/gen)
 "EZ" = (
 /obj/structure/table,
 /obj/effect/turf_decal/loading_area{
@@ -11676,11 +11655,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/grimy,
 /area/xenoarch/nothinghere)
-"GS" = (
-/turf/open/floor/plasteel/dark/side{
-	dir = 9
-	},
-/area/xenoarch/gen)
 "GT" = (
 /obj/structure/table,
 /obj/machinery/conveyor_switch/oneway{
@@ -11930,12 +11904,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/xenoarch/gainiumresearch_powered)
-"Ib" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 1
-	},
-/turf/open/floor/plasteel/dark,
-/area/xenoarch/gen)
 "Ic" = (
 /obj/structure/window/fulltile,
 /obj/structure/flora/ausbushes/ywflowers,
@@ -12522,11 +12490,6 @@
 /obj/item/reagent_containers/food/snacks/bluecherrycupcake,
 /turf/open/candyfloor,
 /area/ruin/powered/candyland)
-"Kd" = (
-/turf/open/floor/plasteel/dark/side{
-	dir = 5
-	},
-/area/xenoarch/gen)
 "Ke" = (
 /obj/structure/table,
 /obj/item/stack/cable_coil/red,
@@ -16727,12 +16690,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/dark,
 /area/xenoarch/gainiumresearch_powered)
-"ZE" = (
-/obj/effect/turf_decal/tile/purple{
-	dir = 4
-	},
-/turf/open/floor/plasteel/dark,
-/area/xenoarch/gen)
 "ZF" = (
 /obj/item/trash/plate,
 /obj/effect/decal/cleanable/dirt,
@@ -22483,9 +22440,9 @@ nI
 nM
 nR
 oi
-el
-el
-Kd
+fK
+fK
+fK
 fK
 ei
 jG
@@ -22740,10 +22697,10 @@ az
 hc
 oq
 fK
-rc
-sf
-Ib
-xn
+fK
+fK
+fK
+fK
 nY
 kb
 kR
@@ -22997,10 +22954,10 @@ az
 nN
 Pa
 fK
-rc
+fK
 rx
-EY
-xn
+fK
+fK
 nZ
 kb
 cf
@@ -23254,10 +23211,10 @@ nJ
 nO
 fL
 NP
-rc
-sU
-ZE
-xn
+fK
+fK
+fK
+fK
 oh
 kb
 kT
@@ -23511,9 +23468,9 @@ fV
 fV
 fL
 BA
-el
-el
-GS
+fK
+fK
+fK
 fK
 ei
 kd
