@@ -270,15 +270,26 @@
 #define TRAIT_MICROPHILE		"microphile" //likes the small
 #define TRAIT_APATHETIC			"apathetic" //doesn't care
 
-#define TRAIT_FATTER			"fatter"
-#define TRAIT_VERYFAT			"veryfat"
-#define TRAIT_OBESE				"obese"
-#define TRAIT_MORBIDLYOBESE		"morbildyobese"
-#define TRAIT_EXTREMELYOBESE	"extremelyobese"
-#define TRAIT_BARELYMOBILE		"barelymobile"
-#define TRAIT_IMMOBILE			"immobile"
-#define TRAIT_BLOB				"blobweight"
-#define TRAIT_MEGABLOB			"megablobweight"
+//WG13 Weight Stages
+#define TRAIT_FATNESS_1			"Pudgy"
+#define TRAIT_FATNESS_2			"Paunchy"
+#define TRAIT_FATNESS_3			"Plump"
+#define TRAIT_FATNESS_4			"Slightly Chubby"
+#define TRAIT_FATNESS_5			"Chubby"
+#define TRAIT_FATNESS_6			"Extremely Chubby"
+#define TRAIT_FATNESS_7			"Slightly Overweight"
+#define TRAIT_FATNESS_8			"Overweight"
+#define TRAIT_FATNESS_9			"Extremely Overweight"
+#define TRAIT_FATNESS_10		"Obese"
+#define TRAIT_FATNESS_11		"Extremely Obese"
+#define TRAIT_FATNESS_12		"Morbidly Obese"
+#define TRAIT_FATNESS_13		"Fatty Blob"
+#define TRAIT_FATNESS_14		"Large Fatty Blob"
+#define TRAIT_FATNESS_15		"Super Fatty Blob"
+#define TRAIT_FATNESS_16		"Mega Fatty Blob"
+#define TRAIT_FATNESS_17		"Ultra Fatty Blob"
+#define TRAIT_FATNESS_18		"Nearly Immobile Lardass"
+#define TRAIT_FATNESS_19		"Immobile Lardass"
 
 //GS13 quirks
 #define TRAIT_FAT_GOOD			"fat_good"
