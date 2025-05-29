@@ -297,17 +297,27 @@
 	else
 		H.remove_movespeed_modifier(/datum/movespeed_modifier/fatness)
 
-	if(HAS_TRAIT(H, TRAIT_BLOB))
+	if(HAS_TRAIT(H, TRAIT_MEGABLOB))
 		handle_fatness_trait(
 			H,
+			TRAIT_MEGABLOB,
 			TRAIT_BLOB,
-			TRAIT_IMMOBILE,
 			null,
-			FATNESS_LEVEL_9,
+			FATNESS_LEVEL_10,
 			INFINITY,
 			"<span class='notice'>You feel like you've regained some mobility!</span>",
 			null)
 		return
+	if(HAS_TRAIT(H, TRAIT_BLOB))
+		handle_fatness_trait(
+			H,
+			TRAIT_IMMOBILE, //Current Fatness Level
+			TRAIT_BLOB, //Previous Fatness Level
+			TRAIT_MEGABLOB, //Next Fatness L
+			FATNESS_LEVEL_9,
+			FATNESS_LEVEL_10,
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you're starting to get really heavy.</span>")
 	if(HAS_TRAIT(H, TRAIT_IMMOBILE))
 		handle_fatness_trait(
 			H,
@@ -366,9 +376,9 @@
 	if(HAS_TRAIT(H, TRAIT_VERYFAT))
 		handle_fatness_trait(
 			H,
-			TRAIT_VERYFAT,
-			TRAIT_FATTER,
-			TRAIT_OBESE,
+			TRAIT_VERYFAT, //Current Fatness Level
+			TRAIT_FATTER, //Previous Fatness Level
+			TRAIT_OBESE, //Next Fatness L
 			FATNESS_LEVEL_3,
 			FATNESS_LEVEL_4,
 			"<span class='notice'>You feel like you've lost weight!</span>",

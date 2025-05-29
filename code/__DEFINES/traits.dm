@@ -278,6 +278,7 @@
 #define TRAIT_BARELYMOBILE		"barelymobile"
 #define TRAIT_IMMOBILE			"immobile"
 #define TRAIT_BLOB				"blobweight"
+#define TRAIT_MEGABLOB			"megablobweight"
 
 //GS13 quirks
 #define TRAIT_FAT_GOOD			"fat_good"
