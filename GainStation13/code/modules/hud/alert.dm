@@ -27,12 +27,12 @@
 	icon_state = "fatness_15"
 
 /atom/movable/screen/alert/gs13/fatness_14
-	name = "Fatty Blob"
+	name = "Large Fatty Blob"
 	desc = "The layers upon layers of accumulated adipose are becoming too much for your lard laden legs, it might be time to find a mobility scooter."
 	icon_state = "fatness_14"
 
 /atom/movable/screen/alert/gs13/fatness_13
-	name = "Double Giga Fatty Blob"
+	name = "Fatty Blob"
 	desc = "Every last piece of your corpulent body is now plush and bloated with vast rolls of blubber. Your corpulence is such that you are akin to a gigantic, towering wad of dough."
 	icon_state = "fatness_13"
 
