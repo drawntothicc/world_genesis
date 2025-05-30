@@ -218,7 +218,7 @@ GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/mainten
 
 /mob/living/carbon/proc/xwg_resize()
 	if(client?.prefs?.weight_gain_extreme && !normalized)
-		var/xwg_size = sqrt(fatness/FATNESS_LEVEL_9)
+		var/xwg_size = sqrt(fatness/FATNESS_LEVEL_19)
 		xwg_size = min(xwg_size, RESIZE_MACRO)
 		xwg_size = max(xwg_size, custom_body_size)
 		if(xwg_size > RESIZE_A_HUGEBIG) //check if the size needs capping otherwise don't bother searching the list
