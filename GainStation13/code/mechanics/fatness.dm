@@ -67,7 +67,7 @@ GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/mainten
 
 	// Handle Awards
 	if(client)
-		if(fatness > FATNESS_LEVEL_9)
+		if(fatness > FATNESS_LEVEL_19)
 			client.give_award(/datum/award/achievement/fat/blob, src)
 		if(fatness > 10000)
 			client.give_award(/datum/award/achievement/fat/milestone_one, src)

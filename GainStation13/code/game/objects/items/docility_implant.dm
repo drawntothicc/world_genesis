@@ -2,7 +2,7 @@
 	name = "docility implant"
 	activated = FALSE
 	/// What fatness level does the target need to be for the implant to work?
-	var/required_fatness = FATNESS_LEVEL_9
+	var/required_fatness = FATNESS_LEVEL_19
 	/// What traits do we want to give the implanted mob?
 	var/list/traits_list = list(
 		TRAIT_WEIGHT_LOSS_IMMUNE,

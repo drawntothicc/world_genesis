@@ -26,7 +26,7 @@
 
 	var/fat_to_add = looker.fatness_until_next_level()
 	if(!fat_to_add)
-		fat_to_add = FATNESS_LEVEL_9 // If someone is a blob, just add the amount of fatness needed to be a blob in the first place.
+		fat_to_add = FATNESS_LEVEL_19 // If someone is a blob, just add the amount of fatness needed to be a blob in the first place.
 
 	fat_to_add += 25 // a little buffer so they don't instantly burn it off.
 	looker.adjust_fatness(fat_to_add, FATTENING_TYPE_MAGIC, TRUE)
