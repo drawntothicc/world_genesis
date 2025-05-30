@@ -38,7 +38,7 @@
 			REMOVE_TRAIT(H, trait, OBESITY)
 		if (trait_lose)
 			ADD_TRAIT(H, trait_lose, OBESITY)
-		update_body_size(H, 1)
+		update_body_size(H, -1)
 	else if(H.fatness >= fatness_gain)
 		if (chat_gain)
 			to_chat(H, chat_gain)
