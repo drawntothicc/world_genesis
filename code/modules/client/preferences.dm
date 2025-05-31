@@ -1160,7 +1160,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 			dat += "<a href='?_src_=prefs;preference=preferences_tab;tab=[GAME_PREFS_TAB]' [preferences_tab == GAME_PREFS_TAB ? "class='linkOn'" : ""]>General</a>"
 			dat += "<a href='?_src_=prefs;preference=preferences_tab;tab=[OOC_PREFS_TAB]' [preferences_tab == OOC_PREFS_TAB ? "class='linkOn'" : ""]>OOC</a>"
 			dat += "<a href='?_src_=prefs;preference=preferences_tab;tab=[CONTENT_PREFS_TAB]' [preferences_tab == CONTENT_PREFS_TAB ? "class='linkOn'" : ""]>Content</a>"
-			dat += "<a href='?_src_=prefs;preference=preferences_tab;tab=[GS13_PREFS_TAB]' [preferences_tab == GS13_PREFS_TAB ? "class='linkOn'" : ""]>GS13</a>"
+			dat += "<a href='?_src_=prefs;preference=preferences_tab;tab=[GS13_PREFS_TAB]' [preferences_tab == GS13_PREFS_TAB ? "class='linkOn'" : ""]>WG13</a>"
 			dat += "</center>"
 
 			dat += "<HR>"
@@ -1401,7 +1401,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 				if(GS13_PREFS_TAB)
 					dat += "<table><tr><td width='340px' height='300px' valign='top'>"
-					dat += "<h2>Weight prefs</h2>"
+					dat += "<h2>Weight Preferences</h2>"
 					dat += "<b>Maximum Weight:</b><a href='?_src_=prefs;preference=max_fatness'>[max_weight == FALSE ? "None" : max_weight]</a><BR>"
 					dat += "<b>NonCon - Weight Gain:</b><a href='?_src_=prefs;preference=noncon_weight_gain'>[noncon_weight_gain == TRUE ? "Enabled" : "Disabled"]</a><BR>"
 					dat += "<b>Show that you want to be confronted:</b><a href='?_src_=prefs;preference=trouble_seeker'>[trouble_seeker == TRUE ? "Enabled" : "Disabled"]</a><BR>"
@@ -1422,7 +1422,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "</td>"
 
 					dat +="<td width='300px' height='300px' valign='top'>"
-					dat += "<h2>GS13 Gameplay Preferences</h2>"
+					dat += "<h2>WG13 Gameplay Preferences</h2>"
 					dat += "<b>Stuckage (at what weight will you get stuck in doors?):</b><a href='?_src_=prefs;preference=stuckage'>[stuckage == FALSE ? "Disabled" : stuckage]</a><BR>"
 					if(stuckage)
 						dat += "<b>Stuckage Chance :</b> <a href='?_src_=prefs;preference=stuckage_chance;task=input'>[stuckage_chance]</a><br>"
@@ -1442,7 +1442,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					dat += "</td>"
 
 					dat +="<td width='300px' height='300px' valign='top'>"
-					dat += "<h2>GS13 Helplessness Preferences</h2>"
+					dat += "<h2>WG13 Helplessness Preferences</h2>"
 					dat += "<b>Please be careful when using these mechanics as not to use them in a way that negatively impacts those around you. If you are seriously needed for something, especially something station critical, do not use these as an excuse to ignore your duty.</b><BR><BR>"
 					dat += "<b>No Movement:</b><a href='?_src_=prefs;preference=helplessness_no_movement'>[helplessness_no_movement == FALSE ? "Disabled" : helplessness_no_movement]</a><BR>"
 					dat += "<b>Clumsy:</b><a href='?_src_=prefs;preference=helplessness_clumsy'>[helplessness_clumsy == FALSE ? "Disabled" : helplessness_clumsy]</a><BR>"

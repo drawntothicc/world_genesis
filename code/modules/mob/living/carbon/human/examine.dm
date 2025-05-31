@@ -447,19 +447,19 @@
 		. += span_warning("[t_He] [t_is] as wide as [t_He] [t_is] tall, barely able to move [t_His] masssive body that seems to be overtaken with piles of flab.")
 
 	else if(fatness >= FATNESS_LEVEL_6)
-		. += span_warning("[t_He] [t_is] ripe with numerous rolls of fat, almost all of [t_His] body layered with adipose.")
+		. += span_warning("[t_He] [t_is] is a proper porker, sporting a sizeable gut and an array of adipose laden rolls that make it a chore for [t_His] to move.")
 
 	else if(fatness >= FATNESS_LEVEL_5)
-		. += span_warning("[t_He] [t_is] utterly stuffed with abundant lard, [t_He] doesn't seem to be able to move much.")
+		. += span_warning("[t_He] [t_is] has gotten chubby, sporting an array of wobbly fat rolls around their middle that jostle and jiggle freely at the slightest movement.")
 
 	else if(fatness >= FATNESS_LEVEL_4)
-		. += span_warning("[t_He] [t_is] engorged with fat, [t_His] body laden in rolls of fattened flesh.")
+		. += span_warning("[t_He] [t_is] looking large, their frame now sports some notable jiggle when they move, particularly around their paunchy middle.")
 
 	else if(fatness >= FATNESS_LEVEL_3)
-		. += span_notice("[t_He] [t_is] pleasantly plushy, [t_His] body gently wobbling whenever they move.")
+		. += span_notice("[t_He] [t_is] quite pudgy, with a soft, pillowy gut to boot.")
 
 	else if(fatness >= FATNESS_LEVEL_2)
-		. += span_notice("[t_He] [t_is] soft and curvy, [t_His] belly looking like a small pillow.")
+		. += span_notice("[t_He] [t_is] growing soft, the curvy contour of a burgeoning belly barely visible around their middle.")
 
 	//GS13 EDIT START
 	if(client?.prefs?.noncon_weight_gain)

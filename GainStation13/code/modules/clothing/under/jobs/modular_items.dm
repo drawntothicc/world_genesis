@@ -147,8 +147,8 @@
 //General function to get the appropriate shape and size for the belly, accounting for fullness
 /obj/item/proc/get_belly_size(obj/item/organ/genital/G)
 	var/size = G.size
-	if(G.size > 9)
-		size = 9
+	if(G.size > 19)
+		size = 19
 	var/shape
 	if(G.owner.fullness <= FULLNESS_LEVEL_BLOATED)
 		switch(G.shape)

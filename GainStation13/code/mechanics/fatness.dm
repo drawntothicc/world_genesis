@@ -67,7 +67,7 @@ GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/mainten
 
 	// Handle Awards
 	if(client)
-		if(fatness > FATNESS_LEVEL_9)
+		if(fatness > FATNESS_LEVEL_19)
 			client.give_award(/datum/award/achievement/fat/blob, src)
 		if(fatness > 10000)
 			client.give_award(/datum/award/achievement/fat/milestone_one, src)
@@ -218,7 +218,7 @@ GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/mainten
 
 /mob/living/carbon/proc/xwg_resize()
 	if(client?.prefs?.weight_gain_extreme && !normalized)
-		var/xwg_size = sqrt(fatness/FATNESS_LEVEL_9)
+		var/xwg_size = sqrt(fatness/FATNESS_LEVEL_19)
 		xwg_size = min(xwg_size, RESIZE_MACRO)
 		xwg_size = max(xwg_size, custom_body_size)
 		if(xwg_size > RESIZE_A_HUGEBIG) //check if the size needs capping otherwise don't bother searching the list
@@ -230,43 +230,43 @@ GLOBAL_LIST_INIT(uncapped_resize_areas, list(/area/command/bridge, /area/mainten
 	if(fatness_amount < FATNESS_LEVEL_1)
 		return "Normal"
 	if(fatness_amount < FATNESS_LEVEL_2)
-		return "Fat"
+		return "Pudgy"
 	if(fatness_amount < FATNESS_LEVEL_3)
-		return "Fatter"
+		return "Paunchy"
 	if(fatness_amount < FATNESS_LEVEL_4)
-		return "Very Fat"
+		return "Plump"
 	if(fatness_amount < FATNESS_LEVEL_5)
-		return "Obese"
+		return "Slightly Chubby"
 	if(fatness_amount < FATNESS_LEVEL_6)
-		return "Very Obese"
+		return "Chubby"
 	if(fatness_amount < FATNESS_LEVEL_7)
-		return "Extremely Obese"
+		return "Extremely Chubby"
 	if(fatness_amount < FATNESS_LEVEL_8)
-		return "Barely Mobile"
+		return "Slightly Overweight"
 	if(fatness_amount < FATNESS_LEVEL_9)
-		return "Immobile"
+		return "Overweight"
 	if(fatness_amount < FATNESS_LEVEL_10)
-		return "Lardass"
+		return "Extremely Overweight"
 	if(fatness_amount < FATNESS_LEVEL_11)
-		return "Normal"
-	if(fatness_amount < FATNESS_LEVEL_12)
-		return "Fat"
-	if(fatness_amount < FATNESS_LEVEL_13)
-		return "Fatter"
-	if(fatness_amount < FATNESS_LEVEL_14)
-		return "Very Fat"
-	if(fatness_amount < FATNESS_LEVEL_15)
 		return "Obese"
-	if(fatness_amount < FATNESS_LEVEL_16)
-		return "Very Obese"
-	if(fatness_amount < FATNESS_LEVEL_17)
+	if(fatness_amount < FATNESS_LEVEL_12)
 		return "Extremely Obese"
+	if(fatness_amount < FATNESS_LEVEL_13)
+		return "Morbidly Obese"
+	if(fatness_amount < FATNESS_LEVEL_14)
+		return "Fatty Blob"
+	if(fatness_amount < FATNESS_LEVEL_15)
+		return "Large Fatty Blob"
+	if(fatness_amount < FATNESS_LEVEL_16)
+		return "Super Fatty Blob"
+	if(fatness_amount < FATNESS_LEVEL_17)
+		return "Mega Fatty Blob"
 	if(fatness_amount < FATNESS_LEVEL_18)
-		return "Barely Mobile"
+		return "Ultra Fatty Blob"
 	if(fatness_amount < FATNESS_LEVEL_19)
-		return "Immobile"
+		return "Nearly Immobile Lardass"
 
-	return "Blob"
+	return "Immobile Lardass"
 
 /// Finds what the next fatness level for the parent mob would be based off of fatness_real.
 /mob/living/carbon/proc/get_next_fatness_level()

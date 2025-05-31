@@ -297,100 +297,210 @@
 	else
 		H.remove_movespeed_modifier(/datum/movespeed_modifier/fatness)
 
-	if(HAS_TRAIT(H, TRAIT_BLOB))
+	if(HAS_TRAIT(H, TRAIT_FATNESS_19))
 		handle_fatness_trait(
 			H,
-			TRAIT_BLOB,
-			TRAIT_IMMOBILE,
+			TRAIT_FATNESS_19,
+			TRAIT_FATNESS_18,
 			null,
-			FATNESS_LEVEL_9,
+			FATNESS_LEVEL_19,
 			INFINITY,
 			"<span class='notice'>You feel like you've regained some mobility!</span>",
 			null)
 		return
-	if(HAS_TRAIT(H, TRAIT_IMMOBILE))
+	if(HAS_TRAIT(H, TRAIT_FATNESS_18)) //WG13 - The current fatness level of the player.
 		handle_fatness_trait(
 			H,
-			TRAIT_IMMOBILE,
-			TRAIT_BARELYMOBILE,
-			TRAIT_BLOB,
-			FATNESS_LEVEL_8,
-			FATNESS_LEVEL_9,
-			"<span class='notice'>You feel less restrained by your fat!</span>",
-			"<span class='danger'>You feel like you've become a mountain of fat!</span>")
-		return
-	if(HAS_TRAIT(H, TRAIT_BARELYMOBILE))
-		handle_fatness_trait(
-			H,
-			TRAIT_BARELYMOBILE,
-			TRAIT_EXTREMELYOBESE,
-			TRAIT_IMMOBILE,
-			FATNESS_LEVEL_7,
-			FATNESS_LEVEL_8,
-			"<span class='notice'>You feel less restrained by your fat!</span>",
-			"<span class='danger'>You feel your belly smush against the floor!</span>")
-		return
-	if(HAS_TRAIT(H, TRAIT_EXTREMELYOBESE))
-		handle_fatness_trait(
-			H,
-			TRAIT_EXTREMELYOBESE,
-			TRAIT_MORBIDLYOBESE,
-			TRAIT_BARELYMOBILE,
-			FATNESS_LEVEL_6,
-			FATNESS_LEVEL_7,
-			"<span class='notice'>You feel less restrained by your fat!</span>",
-			"<span class='danger'>You feel like you can barely move!</span>")
-		return
-	if(HAS_TRAIT(H, TRAIT_MORBIDLYOBESE))
-		handle_fatness_trait(
-			H,
-			TRAIT_MORBIDLYOBESE,
-			TRAIT_OBESE,
-			TRAIT_EXTREMELYOBESE,
-			FATNESS_LEVEL_5,
-			FATNESS_LEVEL_6,
-			"<span class='notice'>You feel a bit less fat!</span>",
-			"<span class='danger'>You feel your belly rest heavily on your lap!</span>")
-		return
-	if(HAS_TRAIT(H, TRAIT_OBESE))
-		handle_fatness_trait(
-			H,
-			TRAIT_OBESE,
-			TRAIT_VERYFAT,
-			TRAIT_MORBIDLYOBESE,
-			FATNESS_LEVEL_4,
-			FATNESS_LEVEL_5,
+			TRAIT_FATNESS_18, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_17,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_19, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_18, //WG13 - Current Level
+			FATNESS_LEVEL_19, //WG13 - Next Level
 			"<span class='notice'>You feel like you've lost weight!</span>",
-			"<span class='danger'>Your thighs begin to rub against each other.</span>")
+			"<span class='danger'>You feel like you've gained weight!</span>")
 		return
-	if(HAS_TRAIT(H, TRAIT_VERYFAT))
+	if(HAS_TRAIT(H, TRAIT_FATNESS_17)) //WG13 - The current fatness level of the player.
 		handle_fatness_trait(
 			H,
-			TRAIT_VERYFAT,
-			TRAIT_FATTER,
-			TRAIT_OBESE,
-			FATNESS_LEVEL_3,
-			FATNESS_LEVEL_4,
+			TRAIT_FATNESS_17, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_16,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_18, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_17, //WG13 - Current Level
+			FATNESS_LEVEL_18, //WG13 - Next Level
 			"<span class='notice'>You feel like you've lost weight!</span>",
-			"<span class='danger'>You feel like you're starting to get really heavy.</span>")
+			"<span class='danger'>You feel like you've gained weight!</span>")
 		return
-	if(HAS_TRAIT(H, TRAIT_FATTER))
+	if(HAS_TRAIT(H, TRAIT_FATNESS_16)) //WG13 - The current fatness level of the player.
 		handle_fatness_trait(
 			H,
-			TRAIT_FATTER,
-			TRAIT_FAT,
-			TRAIT_VERYFAT,
-			FATNESS_LEVEL_2,
-			FATNESS_LEVEL_3,
+			TRAIT_FATNESS_16, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_15,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_17, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_16, //WG13 - Current Level
+			FATNESS_LEVEL_17, //WG13 - Next Level
 			"<span class='notice'>You feel like you've lost weight!</span>",
-			"<span class='danger'>Your clothes creak quietly!</span>")
+			"<span class='danger'>You feel like you've gained weight!</span>")
 		return
-	if(HAS_TRAIT(H, TRAIT_FAT))
+	if(HAS_TRAIT(H, TRAIT_FATNESS_15)) //WG13 - The current fatness level of the player.
 		handle_fatness_trait(
 			H,
-			TRAIT_FAT,
+			TRAIT_FATNESS_15, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_14,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_16, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_15, //WG13 - Current Level
+			FATNESS_LEVEL_16, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_14)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_14, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_13,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_15, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_14, //WG13 - Current Level
+			FATNESS_LEVEL_15, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_13)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_13, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_12,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_14, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_13, //WG13 - Current Level
+			FATNESS_LEVEL_14, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_12)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_12, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_11,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_13, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_12, //WG13 - Current Level
+			FATNESS_LEVEL_13, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_11)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_11, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_10,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_12, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_11, //WG13 - Current Level
+			FATNESS_LEVEL_12, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_10)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_10, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_9,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_11, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_10, //WG13 - Current Level
+			FATNESS_LEVEL_11, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_9)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_9, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_8,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_10, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_9, //WG13 - Current Level
+			FATNESS_LEVEL_10, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_8)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_8, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_7,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_9, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_8, //WG13 - Current Level
+			FATNESS_LEVEL_9, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_7)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_7, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_6,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_8, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_7, //WG13 - Current Level
+			FATNESS_LEVEL_8, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_6)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_6, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_5,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_7, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_6, //WG13 - Current Level
+			FATNESS_LEVEL_7, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_5)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_5, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_4,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_6, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_5, //WG13 - Current Level
+			FATNESS_LEVEL_6, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_4)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_4, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_3,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_5, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_4, //WG13 - Current Level
+			FATNESS_LEVEL_5, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_3)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_3, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_2,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_4, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_3, //WG13 - Current Level
+			FATNESS_LEVEL_4, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_2)) //WG13 - The current fatness level of the player.
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_2, //WG13 - The current fatness level of the player.
+			TRAIT_FATNESS_1,	//WG13 - The previous fatness level of the player.
+			TRAIT_FATNESS_3, //WG13 - The next fatness level of the player
+			FATNESS_LEVEL_2, //WG13 - Current Level
+			FATNESS_LEVEL_3, //WG13 - Next Level
+			"<span class='notice'>You feel like you've lost weight!</span>",
+			"<span class='danger'>You feel like you've gained weight!</span>")
+		return
+	if(HAS_TRAIT(H, TRAIT_FATNESS_1))
+		handle_fatness_trait(
+			H,
+			TRAIT_FATNESS_1,
 			null,
-			TRAIT_FATTER,
+			TRAIT_FATNESS_2,
 			FATNESS_LEVEL_1,
 			FATNESS_LEVEL_2,
 			"<span class='notice'>You feel fit again!</span>",
@@ -400,7 +510,7 @@
 			H,
 			null,
 			null,
-			TRAIT_FAT,
+			TRAIT_FATNESS_1,
 			0,
 			FATNESS_LEVEL_1,
 			null,
