@@ -9,4 +9,5 @@
 ###############################################################################################
 
 m16npregnant = Host
-Gabbr = Game Master
+Gabbr = GameMaster
+Sapphoqueer = Coder
