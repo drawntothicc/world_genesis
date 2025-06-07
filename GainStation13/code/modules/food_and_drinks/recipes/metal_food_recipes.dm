@@ -9,7 +9,7 @@
 	subcategory = CAT_MISCELLANEOUS //CAT_BURGER
 
 /datum/crafting_recipe/food/mburger_gainium
-	name = "Calotite Burger"
+	name = "Gainium Burger"
 	reqs = list(
 		/obj/item/stack/sheet/mineral/gold = 1,
 		/obj/item/stack/sheet/mineral/gainium = 1,

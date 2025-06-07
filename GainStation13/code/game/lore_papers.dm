@@ -489,65 +489,16 @@
 	author = "C. Kasparov"
 	title = "World Genesis Onboarding Manual"
 	dat = {"<html>
-				<head>
-				<style>
-				h1 {font-size: 18px; margin: 15px 0px 5px;}
-				h2 {font-size: 15px; margin: 15px 0px 5px;}
-				li {margin: 2px 0px 2px 15px;}
-				ul {list-style: none; margin: 5px; padding: 0px;}
-				ol {margin: 5px; padding: 0px 15px;}
-				i {color: red; font-weight: bold;}
-				</style>
-				</head>
-				<body>
-				<h3 style="text-align: center;">Welcome to Genesis Industrial Concern!</h3>
-				<hr>
-				Thank you, valued employee, for signing up to do work for Genesis Industrial Concern. Whether you are working full-time or as a contractor for us, the contents within this little guide will help you get started on what you need to know!
-				<p>
-				<h2>Table of Contents...</h2>
-				<ol>
-				<li>What is Genesis?
-				<li>The origin of Genesis
-				<li>The current state of Genesis
-				<li>GS13: Current development projects
-				</ol>
-				<p>
-				<hr>
-                <h1><u>Chapter 1</u></h1>
-                <h2>What is Genesis? </h2>
-				<p>
-				Genesis Industrial Concern is a corporation that operates in every sector known to all sapients. Agriculture, luxurious goods, R&D, pharmaceuticals- if it exists, we make it! Your current employment is upon a....: <p>
-				GENERAL STATION
-				<p>
-				Lucky you! A General Station is one that does not specialize in any particular type of production, and profits off of whatever it can manage to export. You've heard us! So long as the crew can attain profitable goods and ship it off to Central Command, you're doing your job! Here at Gato, we understand how autonomy for stations can improve both the conditions of workers and stimulate both creativity and innovation. As a result, we have permitted you to have nearly free reign over your activities, far from bureaucracy and regulation. That's much better than Nanotrasen, right?
-				<p>
-				<hr>
-				<h1><u>Chapter 2</u></h1>
-				<h2>The origin of Genesis</h2>
-				<p>
-				Gato's story begins around the beginning of the 22nd century. It was a truly hard time, indeed! Between the troublesome and expensive startup process of making a small business, and the crushing weight of bigger corporations, one would think that setting up a business was financial suicide. But our founder,
-				<i>~~-`11@#\[ERROR\]</i>
-				, thought otherwise! So, GatoMart was founded, and we were instantly known for our creativity. Cute designs and friendly service built us the profit and recognition we needed to expand! And expand we did, taking on more and more corporations under our wing until we became the way we are today. Now, you can find Genesis products all across the galaxy, ranging from simple things like cheese slices to more complex heavy artillery platforms! Isn't it grand to participate in maintaining such an awesome corporation like ours?
-				<p>
-				<hr>
-                <h1><u>Chapter 3</u></h1>
-                <h2>The current state of Gato</h2>
-				<p>
-				Many people have begun to circulate bad rumors that Genesis is beginning to decline. Dear employees, as honest, loving, and trustworthy employers, we must deny those claims! The Syndicate does not pose much of a threat, and we have continued to profit despite the odds! So do not fear, neither your wages nor your employment are currently at risk. We would never think of doing something that would cause such anguish to the members of our beloved company! Perhaps it is time to go onto a more pleasant topic... how the corporate hierarchy works! At the bottom, we have common workers, above that are your Department Heads, and above that is your Captain! And your Captain answers to our Central Command teams, who are subordinate to the Head of Central Command, who reports to the Branch Manager, who answers to the Executive Officers, who answer to the CEO(Chief Executive Officer!), who answers to the Board of Directors. The Board of Directors equally listens to the input of our most trusted shareholders, and the Head of the Board!
-				<p>
-                <h1><u>Chapter 4</u></h1>
-                <h2>GS13: Current development projects</h2>
-				<p>
-				(GS13 SECTOR PRINT EXCLUSIVE SECTION) As an employee of our thirteenth General Station, you've chosen (or have been chosen) to become a pioneer in some of our R&D projects! GS13 has been located in a relatively peaceful area of one of the rim-systems, home to immensely rare mineral known as "gainium", exclusive to this sector! You'll get a chance to make your name in history by helping us furthen our knowledge of this strange material. Additionally, please be aware of employee shortages: GS13's location makes it a challenge to properly deliver supplies, but Genesis assures you - you have nothing to worry about!
-				<p>
-				Got it? Good! Now you understand all that you might need to know about Genesis Industrial Concern!
-				<p>
-                <hr>
-
-
-
-				</body>
-				</html>
+	<p><strong><span id="docs-internal-guid-802c8f43-7fff-b40b-fcc9-46cedc323109" style="font-family: terminal, monaco, monospace; font-size: x-large;">WELCOME TO WORLD GENESIS INVESTMENT GROUP</span></strong></p>
+	<hr />
+	<p><span id="docs-internal-guid-04c74af4-7fff-9fe7-3fcd-2a3b761bb7ca"><span><span><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd64rD4PxZbbATPpDJ8fklWJV_15vYtykuDpTUHlSSMrK5Dw8RCqatfyeDUP99iR7ixePeBc7HG3xJTweK-P9kqM5kEViDyp099wGz69b60FjHoRCK9j_BnpxBhepJuJzesCwGB_w?key=64mdfuXQFail_QPCOYG0kA" alt="" width="344" height="226" /></span></span></span></p>
+	<hr />
+	<p>&nbsp;</p>
+	<p dir="ltr"><span>Greetings valued employee,</span></p>
+	<p dir="ltr"><span>If you are reading this, you have been offered (or have been legally forced into) a position at World Genesis Investment Group, and as such we extend a hand to shake whatever appendage(s) you may have. Here at Genesis, we strive to maintain a healthy and inclusive work environment that offers our employees the chance to grow into the person of their dreams! With numerous lucrative career opportunities readily available within the science, consumer, and military markets, you are well on your way to helping bring mankind&rsquo;s future to the present! Many stories of success have humble beginnings, and our story is no exception. In our company&rsquo;s infancy, our founding members set out to find the solution to what they deemed society&rsquo;s greatest hurdle: evolution.</span></p>
+	<p dir="ltr"><span>&nbsp;Nanotrasen&rsquo;s discovery of bluespace metamaterials in the early 2100&rsquo;s was the cornerstone for a new era of trans-Newtonian physics which, in turn, led to rapid space colonization and orbital infrastructure development across the entirety of the Milky Way. While the conundrum of reaching distant worlds had largely been solved, the answer to surviving and thriving on them remained a continued dilemma for spacefarers. Mankind, though unrivaled in it&rsquo;s ambition and sheer determination, was often held back by the physical constraints of the human body, constraints Genesis was determined to remove.</span></p>
+	<p dir="ltr"><span>Genesis had it&rsquo;s initial breakthrough through the invention of a synthetic pulmonary surfactant that drastically reduced the need for external oxygen supplementation and life support installations on lucrative mining planets which often had little to no atmosphere. The capital gained from this venture allowed Genesis to begin investing in other areas of biological and cybernetic research, the end goal being to make life on other worlds more sustainable and affordable. By late 2150, Genesis had made great strides in the consumer, industrial, research, and military markets, boasting a wide array of innovative products from genetically altered crops capable of surviving subzero conditions, to highly innovative cybernetic surgery that reduced the overall rate of synthetic graft rejection to around 4%. Many of these achievements were made possible through the use of anomalous biomaterials, or </span><span>ABM&rsquo;s</span><span> as designated by company SDS nomenclature 2-4601. These materials can cause significant changes to an individual&rsquo;s physiology and/or genetic makeup and can often be harnessed for a variety of purposes.&nbsp;</span></p>
+	<p dir="ltr"><span>If you are reading this, congratulations! Your very own success story starts here in a state-of-the-art Genesis orbital research environment, more commonly known as a &ldquo;space station&rdquo; by the crews that happily staff them. Studies show that orbital installations represent an ideal, controlled environment for simulating the conditions of otherwise hostile worlds in a manner that is safe for all personnel involved, and as such, we welcome you aboard!</span></p>
 				"}
 
 //gs13 snack attack shuttle loan
