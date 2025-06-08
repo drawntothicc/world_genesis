@@ -565,6 +565,24 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
+"azO" = (
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9;
+	icon_state = "steel_decals7"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6;
+	icon_state = "steel_decals7"
+	},
+/obj/item/hilbertshotel/ghostdojo,
+/turf/open/floor/plasteel,
+/area/fatlab)
 "azW" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -19451,8 +19469,8 @@
 /obj/effect/mob_spawn/human/ghostcafe{
 	dir = 8
 	},
-/turf/open/indestructible/hotelwood,
-/area/centcom/holding)
+/turf/open/floor/plasteel,
+/area/fatlab)
 "oCQ" = (
 /obj/structure/rack/shelf,
 /obj/effect/turf_decal/box,
@@ -61650,7 +61668,7 @@ jDw
 gbL
 lLJ
 cGf
-oCn
+jDw
 rYz
 lLJ
 jto
@@ -95491,7 +95509,7 @@ kVT
 vJV
 oIq
 upY
-tXs
+azO
 fDd
 gcJ
 upY
@@ -96520,7 +96538,7 @@ ntl
 ntl
 upY
 tfs
-eBY
+oCn
 xjf
 upY
 ntl
