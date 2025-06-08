@@ -565,24 +565,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/centcom/ferry)
-"azO" = (
-/obj/effect/turf_decal/tile/neutral{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/neutral{
-	dir = 4
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 9;
-	icon_state = "steel_decals7"
-	},
-/obj/effect/turf_decal/stripes/white/line{
-	dir = 6;
-	icon_state = "steel_decals7"
-	},
-/obj/item/hilbertshotel/ghostdojo,
-/turf/open/floor/plasteel,
-/area/fatlab)
 "azW" = (
 /obj/machinery/door/airlock/centcom{
 	name = "CentCom Security";
@@ -1175,10 +1157,6 @@
 /obj/item/hand_labeler,
 /turf/open/floor/plasteel/dark,
 /area/fatlab)
-"aYU" = (
-/obj/item/projectile/alter_ray/gainrate_increase,
-/turf/open/floor/plasteel,
-/area/awaymission/jungleresort)
 "aZK" = (
 /obj/structure/sink{
 	dir = 4;
@@ -5540,9 +5518,11 @@
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
 "ena" = (
-/obj/item/projectile/alter_ray/gainrate_increase,
-/turf/open/floor/mineral/gainium/hide,
-/area/awaymission/jungleresort)
+/obj/effect/mob_spawn/human/ghostcafe{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/fatlab)
 "ene" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -19466,9 +19446,21 @@
 /turf/open/floor/carpet/black,
 /area/fatlab)
 "oCn" = (
-/obj/effect/mob_spawn/human/ghostcafe{
-	dir = 8
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
 	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9;
+	icon_state = "steel_decals7"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6;
+	icon_state = "steel_decals7"
+	},
+/obj/item/hilbertshotel/ghostdojo,
 /turf/open/floor/plasteel,
 /area/fatlab)
 "oCQ" = (
@@ -35129,14 +35121,14 @@ efb
 efb
 dES
 dES
-ena
+eDl
 eDl
 nGs
 vtV
 eDl
 waB
 waB
-aYU
+waB
 dES
 dES
 efb
@@ -35391,7 +35383,7 @@ vtV
 waB
 vtV
 eDl
-ena
+eDl
 vtV
 waB
 dES
@@ -35902,10 +35894,10 @@ dES
 dES
 nGs
 waB
-aYU
+waB
 fbv
 nGs
-aYU
+waB
 eDl
 fbv
 dES
@@ -36414,7 +36406,7 @@ dES
 dES
 dES
 dES
-aYU
+waB
 eDl
 eDl
 gzH
@@ -36676,7 +36668,7 @@ eDl
 gzH
 gzH
 vtV
-aYU
+waB
 gzH
 gzH
 dES
@@ -37445,7 +37437,7 @@ dES
 waB
 eDl
 gzH
-aYU
+waB
 vtV
 eDl
 nGs
@@ -38213,7 +38205,7 @@ ntl
 efb
 dES
 dES
-ena
+eDl
 eDl
 vtV
 waB
@@ -38474,10 +38466,10 @@ eDl
 gzH
 eDl
 nGs
-ena
+eDl
 eDl
 gzH
-aYU
+waB
 sZH
 dES
 efb
@@ -95509,7 +95501,7 @@ kVT
 vJV
 oIq
 upY
-azO
+oCn
 fDd
 gcJ
 upY
@@ -96538,7 +96530,7 @@ ntl
 ntl
 upY
 tfs
-oCn
+ena
 xjf
 upY
 ntl
