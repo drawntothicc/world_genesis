@@ -408,16 +408,16 @@
 		. += "[t_He] [t_is] severely malnourished.\n"
 
 	if(fatness >= FATNESS_LEVEL_19)
-		. += span_boldwarning("[t_He] [t_is] completely swallowed by immobile lard, a useless pile of jiggling flesh larger than it is tall by leaps and bounds. [t_his] stomach shakes the ground as it groans, demanding more. If you hadn't known who this was before, [t_he] would be unrecognizable.")
+		. += span_boldwarning("[t_He] [t_is] completely swallowed by immobile lard, a useless pile of jiggling flesh larger than it is tall by leaps and bounds. [t_his] stomach shakes the ground as it groans, demanding more. If you hadn't known who this was before, [t_He] would be unrecognizable.")
 
 	else if(fatness >= FATNESS_LEVEL_18)
-		. += span_boldwarning("[t_His] body is buried in lard so completely that [t_his] head is almost totally obscured by [t_his] jowls and neck rolls. Somehow, [t_he] finds a way to keep eating anyway.")
+		. += span_boldwarning("[t_His] body is buried in lard so completely that [t_his] head is almost totally obscured by [t_his] jowls and neck rolls. Somehow, [t_He] finds a way to keep eating anyway.")
 
 	else if(fatness >= FATNESS_LEVEL_17)
 		. += span_warning("[t_He] [t_is] so laden with lard that it cascades from [t_his] nearly buried head down to the place where [t_his] feet used to be. It's a miracle [t_his] skin can handle the sheer weight of [t_his] fat.")
 
 	else if(fatness >= FATNESS_LEVEL_16)
-		. += span_boldwarning("[t_His] formless blob of lard [t_he] calls a body is unable to be contained by anything even close to clothing. Nobody could ever see anything private, anyways.")
+		. += span_boldwarning("[t_His] formless blob of lard [t_He] calls a body is unable to be contained by anything even close to clothing. Nobody could ever see anything private, anyways.")
 
 	else if(fatness >= FATNESS_LEVEL_15)
 		. += span_warning("[t_He] [t_is] laden with a superb amount of lard, [t_his] shapeless blob of a body useless for anything but rolling towards more food.")
@@ -429,7 +429,7 @@
 		. += span_warning("[t_He] [t_is] nothing more than a fatty blob, covered in doughy blubber, and far too fat to be moving.")
 
 	else if(fatness >= FATNESS_LEVEL_12)
-		. += span_warning("[t_He] [t_is] morbidly obese. [t_his] enormous gut sweeps the floor when [t_he] waddles. The fact that [t_he] can waddle at all is a miracle.")
+		. += span_warning("[t_He] [t_is] morbidly obese. [t_his] enormous gut sweeps the floor when [t_He] waddles. The fact that [t_He] can waddle at all is a miracle.")
 
 	else if(fatness >= FATNESS_LEVEL_11)
 		. += span_notice("[t_He] [t_is] extremely obese, [t_his] body heaving with each step, mobility beginning to slip from [t_his] grasp.")
@@ -453,7 +453,7 @@
 		. += span_warning("[t_He] has gotten chubby, [t_his] chunky body starting to form rolls around [t_his] midsection.")
 
 	else if(fatness >= FATNESS_LEVEL_4)
-		. += span_warning("[t_He] [t_is] looking slightly chubby, a pronounced, fat middle wobbling as [t_he] moves.")
+		. += span_warning("[t_He] [t_is] looking slightly chubby, a pronounced, fat middle wobbling as [t_He] moves.")
 
 	else if(fatness >= FATNESS_LEVEL_3)
 		. += span_notice("[t_He] [t_is] getting plump, a plush belly and tight clothes resting on [t_his] frame.")
