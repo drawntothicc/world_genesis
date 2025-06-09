@@ -1158,9 +1158,23 @@
 /turf/open/floor/plasteel/dark,
 /area/fatlab)
 "aYU" = (
-/obj/item/projectile/alter_ray/gainrate_increase,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 9;
+	icon_state = "steel_decals7"
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 6;
+	icon_state = "steel_decals7"
+	},
+/obj/item/hilbertshotel/ghostdojo,
 /turf/open/floor/plasteel,
-/area/awaymission/jungleresort)
+/area/fatlab)
 "aZK" = (
 /obj/structure/sink{
 	dir = 4;
@@ -5521,10 +5535,6 @@
 /obj/effect/turf_decal/tile/red,
 /turf/open/floor/plasteel,
 /area/tdome/tdomeobserve)
-"ena" = (
-/obj/item/projectile/alter_ray/gainrate_increase,
-/turf/open/floor/mineral/gainium/hide,
-/area/awaymission/jungleresort)
 "ene" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder,
@@ -6712,10 +6722,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/fatlab)
-"fbv" = (
-/obj/item/projectile/beam/fattening/cannon_weak,
-/turf/open/floor/plasteel,
-/area/awaymission/jungleresort)
 "fbD" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -19447,12 +19453,6 @@
 "oCh" = (
 /turf/open/floor/carpet/black,
 /area/fatlab)
-"oCn" = (
-/obj/effect/mob_spawn/human/ghostcafe{
-	dir = 8
-	},
-/turf/open/indestructible/hotelwood,
-/area/centcom/holding)
 "oCQ" = (
 /obj/structure/rack/shelf,
 /obj/effect/turf_decal/box,
@@ -28599,9 +28599,11 @@
 /turf/open/floor/plasteel/dark,
 /area/fatlab)
 "vtV" = (
-/obj/item/projectile/beam/fattening/cannon_weak,
-/turf/open/floor/mineral/gainium/hide,
-/area/awaymission/jungleresort)
+/obj/effect/mob_spawn/human/ghostcafe{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/fatlab)
 "vua" = (
 /obj/structure/flora/ausbushes/fernybush,
 /obj/structure/flora/ausbushes/fullgrass,
@@ -35111,14 +35113,14 @@ efb
 efb
 dES
 dES
-ena
+eDl
 eDl
 nGs
-vtV
+eDl
 eDl
 waB
 waB
-aYU
+waB
 dES
 dES
 efb
@@ -35369,12 +35371,12 @@ efb
 dES
 dES
 eDl
-vtV
-waB
-vtV
 eDl
-ena
-vtV
+waB
+eDl
+eDl
+eDl
+eDl
 waB
 dES
 dES
@@ -35884,12 +35886,12 @@ dES
 dES
 nGs
 waB
-aYU
-fbv
+waB
+waB
 nGs
-aYU
+waB
 eDl
-fbv
+waB
 dES
 dES
 efb
@@ -36396,7 +36398,7 @@ dES
 dES
 dES
 dES
-aYU
+waB
 eDl
 eDl
 gzH
@@ -36657,8 +36659,8 @@ nGs
 eDl
 gzH
 gzH
-vtV
-aYU
+eDl
+waB
 gzH
 gzH
 dES
@@ -36910,7 +36912,7 @@ dES
 dES
 bBh
 rLu
-fbv
+waB
 eDl
 eDl
 eDl
@@ -37168,13 +37170,13 @@ dES
 bBh
 rLu
 waB
-fbv
-nGs
-nGs
-vtV
-vtV
 waB
-vtV
+nGs
+nGs
+eDl
+eDl
+waB
+eDl
 rLu
 bBh
 dES
@@ -37427,8 +37429,8 @@ dES
 waB
 eDl
 gzH
-aYU
-vtV
+waB
+eDl
 eDl
 nGs
 eDl
@@ -37685,7 +37687,7 @@ nGs
 waB
 waB
 waB
-fbv
+waB
 nGs
 waB
 nGs
@@ -38195,14 +38197,14 @@ ntl
 efb
 dES
 dES
-ena
 eDl
-vtV
+eDl
+eDl
 waB
 waB
-vtV
-vtV
-fbv
+eDl
+eDl
+waB
 dES
 dES
 efb
@@ -38456,10 +38458,10 @@ eDl
 gzH
 eDl
 nGs
-ena
+eDl
 eDl
 gzH
-aYU
+waB
 sZH
 dES
 efb
@@ -38713,10 +38715,10 @@ eDl
 eDl
 gzH
 waB
-vtV
+eDl
 eDl
 waB
-fbv
+waB
 dES
 dES
 efb
@@ -61650,7 +61652,7 @@ jDw
 gbL
 lLJ
 cGf
-oCn
+jDw
 rYz
 lLJ
 jto
@@ -95491,7 +95493,7 @@ kVT
 vJV
 oIq
 upY
-tXs
+aYU
 fDd
 gcJ
 upY
@@ -96520,7 +96522,7 @@ ntl
 ntl
 upY
 tfs
-eBY
+vtV
 xjf
 upY
 ntl
