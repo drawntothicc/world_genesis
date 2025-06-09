@@ -26,7 +26,7 @@
 
 /turf/closed/mineral/gainium //GS13
 	mineralType = /obj/item/stack/ore/gainium
-	scan_state = "rock_gainium"
+	scan_state = "rock_Gainium"
 
 /obj/item/stack/ore/gainium //GS13
 	name = "gainium ore"

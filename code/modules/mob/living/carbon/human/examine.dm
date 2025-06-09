@@ -408,58 +408,58 @@
 		. += "[t_He] [t_is] severely malnourished.\n"
 
 	if(fatness >= FATNESS_LEVEL_19)
-		. += span_boldwarning("[t_He] [t_is] completely engulfed in rolls upon rolls of flab. [t_His] head is poking out on top of [t_His] body, akin to a marble on top of a hill.")
+		. += span_boldwarning("[t_He] [t_is] completely swallowed by immobile lard, a useless pile of jiggling flesh larger than it is tall by leaps and bounds. [t_his] stomach shakes the ground as it groans, demanding more. If you hadn't known who this was before, [t_he] would be unrecognizable.")
 
 	else if(fatness >= FATNESS_LEVEL_18)
-		. += span_boldwarning("[t_His] body is buried in an overflowing surplus of adipose, and [t_His] legs are completely buried beneath layers of meaty, obese flesh.")
+		. += span_boldwarning("[t_His] body is buried in lard so completely that [t_his] head is almost totally obscured by [t_his] jowls and neck rolls. Somehow, [t_he] finds a way to keep eating anyway.")
 
 	else if(fatness >= FATNESS_LEVEL_17)
-		. += span_warning("[t_He] [t_is] as wide as [t_He] [t_is] tall, barely able to move [t_His] masssive body that seems to be overtaken with piles of flab.")
+		. += span_warning("[t_He] [t_is] so laden with lard that it cascades from [t_his] nearly buried head down to the place where [t_his] feet used to be. It's a miracle [t_his] skin can handle the sheer weight of [t_his] fat.")
 
 	else if(fatness >= FATNESS_LEVEL_16)
-		. += span_boldwarning("[t_His] body is buried in an overflowing surplus of adipose, and [t_His] legs are completely buried beneath layers of meaty, obese flesh.")
+		. += span_boldwarning("[t_His] formless blob of lard [t_he] calls a body is unable to be contained by anything even close to clothing. Nobody could ever see anything private, anyways.")
 
 	else if(fatness >= FATNESS_LEVEL_15)
-		. += span_warning("[t_He] [t_is] as wide as [t_He] [t_is] tall, barely able to move [t_His] masssive body that seems to be overtaken with piles of flab.")
+		. += span_warning("[t_He] [t_is] laden with a superb amount of lard, [t_his] shapeless blob of a body useless for anything but rolling towards more food.")
 
 	else if(fatness >= FATNESS_LEVEL_14)
-		. += span_warning("[t_He] [t_is] ripe with numerous rolls of fat, almost all of [t_His] body layered with adipose.")
+		. += span_warning("[t_He] [t_is] a large blob of fat, [t_His] body losing shape amid [t_his] endless flab. [t_His] legs are easily too coated in lard to do anything more than jiggle.")
 
 	else if(fatness >= FATNESS_LEVEL_13)
-		. += span_warning("[t_He] [t_is] utterly stuffed with abundant lard, [t_He] doesn't seem to be able to move much.")
+		. += span_warning("[t_He] [t_is] nothing more than a fatty blob, covered in doughy blubber, and far too fat to be moving.")
 
 	else if(fatness >= FATNESS_LEVEL_12)
-		. += span_warning("[t_He] [t_is] engorged with fat, [t_His] body laden in rolls of fattened flesh.")
+		. += span_warning("[t_He] [t_is] morbidly obese. [t_his] enormous gut sweeps the floor when [t_he] waddles. The fact that [t_he] can waddle at all is a miracle.")
 
 	else if(fatness >= FATNESS_LEVEL_11)
-		. += span_notice("[t_He] [t_is] pleasantly plushy, [t_His] body gently wobbling whenever they move.")
+		. += span_notice("[t_He] [t_is] extremely obese, [t_his] body heaving with each step, mobility beginning to slip from [t_his] grasp.")
 
 	else if(fatness >= FATNESS_LEVEL_10)
-		. += span_notice("[t_He] [t_is] soft and curvy, [t_His] belly looking like a small pillow.")
+		. += span_notice("[t_He] [t_is] obese, every last nook and cranny loaded with blubber and flab.")
 
 	else if(fatness >= FATNESS_LEVEL_9)
-		. += span_boldwarning("[t_He] [t_is] completely engulfed in rolls upon rolls of flab. [t_His] head is poking out on top of [t_His] body, akin to a marble on top of a hill.")
+		. += span_boldwarning("[t_He] [t_is] completely swaddled in rolls of lard. [t_his] extremely overweight body seemingly never stops jiggling.")
 
 	else if(fatness >= FATNESS_LEVEL_8)
-		. += span_boldwarning("[t_His] body is buried in an overflowing surplus of adipose, and [t_His] legs are completely buried beneath layers of meaty, obese flesh.")
+		. += span_boldwarning("[t_His] overweight body is covered in fat, [t_his] weight making movement nigh impossible.")
 
 	else if(fatness >= FATNESS_LEVEL_7)
-		. += span_warning("[t_He] [t_is] as wide as [t_He] [t_is] tall, barely able to move [t_His] masssive body that seems to be overtaken with piles of flab.")
+		. += span_warning("[t_He] [t_is] visibly overweight, if only slightly. A bulging belly and fat thighs force [t_his] to waddle rather than walk.")
 
 	else if(fatness >= FATNESS_LEVEL_6)
-		. += span_warning("[t_He] [t_is] is a proper porker, sporting a sizeable gut and an array of adipose laden rolls that make it a chore for [t_His] to move.")
+		. += span_warning("[t_He] [t_is] is extremely chubby, [t_his] now sizeable gut and flabby rolls make moving a hassle.")
 
 	else if(fatness >= FATNESS_LEVEL_5)
-		. += span_warning("[t_He] [t_is] has gotten chubby, sporting an array of wobbly fat rolls around their middle that jostle and jiggle freely at the slightest movement.")
+		. += span_warning("[t_He] has gotten chubby, [t_his] chunky body starting to form rolls around [t_his] midsection.")
 
 	else if(fatness >= FATNESS_LEVEL_4)
-		. += span_warning("[t_He] [t_is] looking large, their frame now sports some notable jiggle when they move, particularly around their paunchy middle.")
+		. += span_warning("[t_He] [t_is] looking slightly chubby, a pronounced, fat middle wobbling as [t_he] moves.")
 
 	else if(fatness >= FATNESS_LEVEL_3)
-		. += span_notice("[t_He] [t_is] quite pudgy, with a soft, pillowy gut to boot.")
+		. += span_notice("[t_He] [t_is] getting plump, a plush belly and tight clothes resting on [t_his] frame.")
 
 	else if(fatness >= FATNESS_LEVEL_2)
-		. += span_notice("[t_He] [t_is] growing soft, the curvy contour of a burgeoning belly barely visible around their middle.")
+		. += span_notice("[t_He] [t_is] sporting the tiniest bit of paunch, a slight jiggle in each step.")
 
 	//GS13 EDIT START
 	if(client?.prefs?.noncon_weight_gain)
