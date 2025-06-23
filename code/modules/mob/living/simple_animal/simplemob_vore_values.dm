@@ -79,6 +79,10 @@
 	vore_flags = DEVOURABLE | DIGESTABLE | FEEDING
 	vore_default_mode = DM_DIGEST
 
+/mob/living/simple_animal/hostile/megafauna/dragon
+	vore_flags = DEVOURABLE | DIGESTABLE | FEEDING
+	vore_default_mode = DM_DIGEST
+
 //GREMLINS GS13 EDIT
 /mob/living/simple_animal/hostile/gremlin
 	vore_flags = DEVOURABLE | DIGESTABLE

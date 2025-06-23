@@ -109,7 +109,7 @@
 	name = "\improper Buzz Fuzz Vendor"
 	desc = "~A hive of Flavour!~"
 	icon_state = "honey_vender"
-	products = list(/obj/item/reagent_containers/food/drinks/soda_cans/cola = 10,
+	products = list(/obj/item/reagent_containers/honeycomb = 30,
 					/obj/item/reagent_containers/food/drinks/soda_cans/space_mountain_wind = 10,
 					/obj/item/reagent_containers/food/drinks/soda_cans/dr_gibb = 10,
 					/obj/item/reagent_containers/food/drinks/soda_cans/starkist = 10,
