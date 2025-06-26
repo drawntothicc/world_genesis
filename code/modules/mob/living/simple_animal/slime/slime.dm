@@ -78,7 +78,7 @@
 	var/static/list/slime_colours = list("rainbow", "grey", "purple", "metal", "orange",
 	"blue", "dark blue", "dark purple", "yellow", "silver", "pink", "red",
 	"gold", "green", "adamantine", "oil", "light pink", "bluespace",
-	"cerulean", "sepia", "black", "pyrite")
+	"cerulean", "sepia", "black", "pyrite","chocolate")
 
 	///////////CORE-CROSSING CODE
 
@@ -129,11 +129,16 @@
 	coretype = text2path("/obj/item/slime_extract/[sanitizedcolour]")
 	regenerate_icons()
 
+
 /mob/living/simple_animal/slime/update_name()
 	if(slime_name_regex.Find(name))
 		number = rand(1, 1000)
 		name = "[colour] [is_adult ? "adult" : "baby"] slime ([number])"
 		real_name = name
+		if(colour == "chocolate")
+			if(is_adult)
+				new/mob/living/simple_animal/hostile/feed/chocolate_slime(src.loc)
+				qdel(src)
 
 /mob/living/simple_animal/slime/proc/random_colour()
 	set_colour(pick(slime_colours))
